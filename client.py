@@ -13,7 +13,7 @@ def real_status(evt) :
 
 socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-socket.connect(("192.168.1.6", 6088)) #TODO change ip and except
+socket.connect(("192.168.43.67", 6088)) #TODO change ip and except
 
 prev_ping = 0
 while 1:

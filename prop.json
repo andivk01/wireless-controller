@@ -1,0 +1,26 @@
+{
+    "BTN_SOUTH": "BtnA",
+    "BTN_EAST": "BtnB",
+    "BTN_NORTH": "BtnX",
+    "BTN_WEST": "BtnY",
+
+    "ABS_X": "AxisLx", 
+    "ABS_Y": "AxisLy",
+    
+    "ABS_RX": "AxisRx",
+    "ABS_RY": "AxisRy",
+
+    "ABS_HAT0X": "PAD",
+    "ABS_HAT0Y": "PAD",
+    
+    "ABS_Z": "TriggerL",
+    "ABS_RZ": "TriggerR",
+    "BTN_TL": "BtnShoulderL",
+    "BTN_TR": "BtnShoulderR",
+
+    "BTN_SELECT": "BtnBack",
+    "BTN_START": "BtnStart",
+        
+    "BTN_THUMBL": "BtnThumbL",
+    "BTN_THUMBR": "BtnThumbR"
+}
