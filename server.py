@@ -11,7 +11,9 @@ try:
 except socket.error as message:
     print("[ERROR] {}\n".format(message))
 
+id_controller = 0
 while(True):
+    id_controller += 1
     (socket, addr) = servSocket.accept()
     print("Nuovo client connesso, {}".format(addr))
-    ServerExecutor(socket, range(1, 1000)).start()
+    ServerExecutor(socket, id_controller).start()
